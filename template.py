@@ -5,13 +5,20 @@ from pathlib import Path
 Project_name = "Image Recognition For Autonomous Vehicles"
 
 list_of_files = [
-    "git/workflows/.gitingore",
+    ".github/workflows/.gitkeep",
     "requirements.txt",
     "config.yaml",
     f"src/{Project_name}/__init__.py",
     f"src/{Project_name}/logging/logger.py",
     f"src/{Project_name}/Exception/exception.py",
-    f"src/{Project_name}/components/__init__.py"
+    f"src/{Project_name}/components/__init__.py",
+    f"src/{Project_name}/utils/__init__.py",
+    f"src/{Project_name}/utils/common.py",
+    f"src/{Project_name}/pipeline/__init__.py",
+    "research/trials.ipynb",
+    "setup.py",
+    "params.yaml",
+    "config/config.yaml"
 ]
 
 for filepath in list_of_files:
