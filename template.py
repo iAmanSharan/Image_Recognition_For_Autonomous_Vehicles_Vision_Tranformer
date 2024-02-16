@@ -2,7 +2,7 @@ import logging
 import os
 from pathlib import Path
 
-Project_name = "Image Recognition For Autonomous Vehicles"
+Project_name = "Image_Recognition_For_Autonomous_Vehicles"
 
 list_of_files = [
     ".github/workflows/.gitkeep",

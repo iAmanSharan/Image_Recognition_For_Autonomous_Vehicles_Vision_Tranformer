@@ -4,7 +4,6 @@ def get_requirements():
     requirements = []
     with open('requirements.txt', 'r') as f:
          requirements.append(f.read().splitlines())
-         requirements.remove('-e .')
          return requirements
 setup(
     name='YourPackageName',
